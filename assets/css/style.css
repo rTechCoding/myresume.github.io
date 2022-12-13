@@ -252,7 +252,7 @@ h6 {
   -moz-filter: blur(15px);
   -o-filter: blur(15px);
   -ms-filter: blur(15px);
-  filter: blur(7px);
+  filter: blur(3px);
 }
 .inner-container{
   width:400px;
