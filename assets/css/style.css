@@ -288,7 +288,7 @@ h6 {
 }
 
 #hero h1 {
-  margin: -333px 0 10px 0;
+  margin: -425px 0px 10px 0px;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -1042,5 +1042,26 @@ section {
     bottom: 62px;
     right: 16px;
     font-size: 28px;
+  }
+  .bgvid {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100vw;
+    overflow: hidden;
+    object-fit: fill;
+    height: -webkit-fill-available;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(7px);
+  }
+  #hero h1 {
+    margin: -85px 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
   }
 }
