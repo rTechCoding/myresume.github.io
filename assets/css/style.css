@@ -1029,7 +1029,10 @@ section {
 .whatsapp-icon {
   margin-top: 16px;
 }
-
+.iframe{
+  width: -webkit-fill-available;
+  height: 250px;
+}
 /* for mobile */
 @media screen and (max-width: 767px) {
   .whatsapp-icon {
